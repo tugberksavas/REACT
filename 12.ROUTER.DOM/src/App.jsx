@@ -7,6 +7,9 @@ import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import NotFoundPage from "./pages/NotFoundPage";
 import Header from "./components/Header";
+import EmployeeAbout from "./pages/EmployeeAbout";
+import CompanyAbout from "./pages/CompanyAbout";
+import ProductDetails from "./pages/ProductDetails";
 
 // Routes Route
 
@@ -16,8 +19,15 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* ic ice komponent */}
+        <Route path="/about" element={<About />}>
+          <Route path="employee" element={<EmployeeAbout />} />
+          <Route path="company" element={<CompanyAbout />} />
+        </Route>
+        {/* ic ice komponent */}
         <Route path="/products" element={<Products />} />
+        <Route path="/product-details/:id" element={<ProductDetails />} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
