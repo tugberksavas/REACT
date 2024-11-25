@@ -1,0 +1,48 @@
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+
+.price{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(253, 169, 59);
+}
+
+.arttirma{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.azaltma{
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.span{
+    font-size: 35px;
+}
+
+.arttirma-azaltma{
+    display: flex;
+    align-items: center;
+}
+
+.sepete-ekle{
+    margin-top: 25px;
+    border: none;
+    padding: 10px;
+    color: orange;
+    border-radius: 5px;
+}
+
+.sepete-ekle:hover{
+    cursor: pointer;
+    background-color: rgb(253, 155, 27);
+    color: white;
+}
