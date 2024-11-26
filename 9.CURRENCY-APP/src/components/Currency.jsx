@@ -4,6 +4,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import axios from "axios";
 
 let BASE_URL = "https://api.freecurrencyapi.com/v1/latest";
+
 let API_KEY = "fca_live_tQpVR914u8FxQVjtvLpeybHHBxAsBuTsylh3y7yy";
 
 function Currency() {
