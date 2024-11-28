@@ -1,0 +1,68 @@
+.auth {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-from-email {
+  border: 1px solid lightgray;
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.auth-from-password {
+  border: 1px solid lightgray;
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.giris-yap-button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #215281;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.kaydol-button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.google-login {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #850c28;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
